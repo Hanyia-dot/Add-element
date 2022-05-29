@@ -15,7 +15,7 @@ const addLiElement = () => {
         item.classList.add("big");
     }
 
-    number= number+2;
+    number += 2;
 }
 
 btn.addEventListener("click", addLiElement)
