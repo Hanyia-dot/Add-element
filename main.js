@@ -7,7 +7,9 @@ const addLiElement = () => {
     const item = document.createElement('li');
     item.textContent = number;
 
-    document.body.appendChild(item);
+    const list = document.querySelector("ul")
+
+    list.appendChild(item);
 
     if(number % 3 == 0) {
         item.classList.add("big");
